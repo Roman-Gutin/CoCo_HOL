@@ -1,0 +1,21 @@
+account_id,account_name,industry,arr,licensed_seats,products,contract_renewal_date,csm_name,primary_ae,health_status,nps_score
+ACC-001,Meridian Media Group,Media & Advertising,186000,45,"Canvas, Flow",2026-06-15,Sarah Chen,Lisa Patel,at_risk,2
+ACC-002,Cascade Financial,Financial Services,312000,80,"Canvas, Flow, Insight",2026-05-01,Marcus Rivera,Ryan Nakamura,at_risk,3
+ACC-003,Beacon Logistics,Logistics & Supply Chain,97000,30,"Canvas, Insight",2026-07-20,Emily Thornton,Kevin McBride,at_risk,4
+ACC-004,Prism Retail,Retail,54000,15,Canvas,2026-04-10,James Okafor,Maria Santos,at_risk,3
+ACC-005,Atlas Digital,Digital Marketing,228000,60,Canvas,2026-09-30,Rachel Goldstein,Priya Sharma,expansion,9
+ACC-006,Summit Healthcare,Healthcare,145000,40,"Canvas, Flow",2026-11-15,Sarah Chen,Ryan Nakamura,expansion,10
+ACC-007,Voyager Entertainment,Entertainment,480000,120,"Canvas, Flow, Insight",2026-08-01,Marcus Rivera,Priya Sharma,expansion,9
+ACC-008,Ironclad Manufacturing,Manufacturing,110000,35,Canvas,2026-10-20,Emily Thornton,Lisa Patel,expansion,8
+ACC-009,Northstar Consulting,Management Consulting,165000,50,"Canvas, Flow",2026-12-01,James Okafor,Ryan Nakamura,healthy,7
+ACC-010,Ridgeline Media,Media & Publishing,138000,42,Flow,2026-07-15,Rachel Goldstein,Priya Sharma,healthy,8
+ACC-011,Clearwater Tech,Technology,275000,70,"Canvas, Flow, Insight",2026-09-01,Sarah Chen,Maria Santos,healthy,7
+ACC-012,Horizon Pharma,Pharmaceuticals,198000,55,Canvas,2026-06-30,Marcus Rivera,Lisa Patel,healthy,8
+ACC-013,Sterling Partners,Private Equity,62000,18,"Canvas, Insight",2026-08-15,Emily Thornton,Tom Westfield,healthy,9
+ACC-014,Apex Marketing,Marketing Agency,124000,38,"Canvas, Flow",2026-11-01,James Okafor,Ryan Nakamura,healthy,7
+ACC-015,Cobalt Aerospace,Aerospace & Defense,210000,55,"Canvas, Flow, Insight",2026-10-01,Rachel Goldstein,Lisa Patel,attention,5
+ACC-016,Driftwood Media,Media & Entertainment,88000,25,"Canvas, Flow",2026-07-01,Sarah Chen,Tom Westfield,attention,4
+ACC-017,Evergreen Education,Education,73000,22,"Canvas, Insight",2026-05-15,Marcus Rivera,Tom Westfield,attention,6
+ACC-018,Flux Dynamics,Engineering Services,156000,48,"Canvas, Flow, Insight",2026-09-15,Emily Thornton,Priya Sharma,attention,5
+ACC-019,Pinnacle Sports,Sports & Recreation,92000,28,"Canvas, Flow",2026-08-30,James Okafor,Maria Santos,healthy,8
+ACC-020,Crestline Analytics,Data & Analytics,172000,46,"Flow, Insight",2026-10-15,Rachel Goldstein,Priya Sharma,healthy,7

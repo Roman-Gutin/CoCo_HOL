@@ -1,0 +1,117 @@
+# Costco product decoder - maps receipt abbreviations to real products
+# KS = Kirkland Signature, BST = Breast, BS = Boneless Skinless
+# Update this as we scan more receipts
+
+products:
+  # Proteins
+  "KS SALMON":
+    item: smoked_salmon
+    full_name: "Kirkland Signature Smoked Salmon, 2-pack"
+    quantity: 2
+    unit: packs
+    location: fridge
+    shelf_life_days: 14
+    price_range: [22, 28]
+
+  "ORGANIC BS BST":
+    item: chicken_breast
+    full_name: "Kirkland Signature Organic Boneless Skinless Chicken Breast"
+    quantity: 1
+    unit: pack
+    location: fridge
+    shelf_life_days: 5
+    price_range: [20, 30]
+
+  "ORGANIC GRIND":
+    item: ground_beef
+    full_name: "Kirkland Signature Organic Ground Beef, ~4.5 lbs (3 pieces)"
+    quantity: 3
+    unit: pieces
+    weight_lbs: 4.5
+    location: fridge
+    shelf_life_days: 5
+    notes: "3 pieces, ~1-1.5 lbs each"
+    price_range: [22, 28]
+
+  # Produce
+  "KS AVOCADOS":
+    item: avocados
+    full_name: "Kirkland Signature Avocados, bag of 6"
+    quantity: 6
+    unit: count
+    location: fridge
+    shelf_life_days: 7
+    price_range: [7, 10]
+
+  "STRAWBERRIES":
+    item: strawberries
+    full_name: "Strawberries, 2 lb clamshell"
+    quantity: 1
+    unit: pack
+    weight_lbs: 2.0
+    location: fridge
+    shelf_life_days: 5
+    price_range: [5, 8]
+
+  "BANANAS":
+    item: bananas
+    full_name: "Bananas, ~3 lbs (~6-7 count)"
+    quantity: 3
+    unit: lbs
+    location: fridge
+    shelf_life_days: 5
+    notes: "~6-7 bananas"
+    price_range: [1, 2]
+
+  # Bakery
+  "BUNS 12 PACK":
+    item: buns
+    full_name: "Hamburger Buns, 12-pack"
+    quantity: 12
+    unit: count
+    location: fridge
+    shelf_life_days: 7
+    price_range: [3, 5]
+
+  # Dairy
+  "KS WATER GAL":
+    item: water_gallon
+    full_name: "Kirkland Signature Purified Water, 1 gallon"
+    quantity: 1
+    unit: gallon
+    location: pantry
+    price_range: [1, 3]
+
+  # Household
+  "KS TOWELETTE":
+    item: towelettes
+    full_name: "Kirkland Signature Moist Towelettes"
+    quantity: 1
+    unit: pack
+    location: pantry
+
+  "KS PILLOWS":
+    item: pillows
+    full_name: "Kirkland Signature Pillows, 2-pack"
+    quantity: 1
+    unit: pack
+    location: pantry
+
+  "CASCADNBOOST":
+    item: cascadian_boost
+    full_name: "Cascadian Farm Organic Granola"
+    quantity: 1
+    unit: box
+    location: pantry
+    price_range: [8, 12]
+
+# Common Costco abbreviations
+abbreviations:
+  KS: "Kirkland Signature"
+  BS: "Boneless Skinless"
+  BST: "Breast"
+  ORG: "Organic"
+  GRND: "Ground"
+  GAL: "Gallon"
+  CT: "Count"
+  PK: "Pack"

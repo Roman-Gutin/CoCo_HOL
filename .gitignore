@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# Environment / secrets
+*.env
+workshop/app/.env
+
+# Google OAuth credentials (NEVER commit)
+google_credentials.json
+token.json
+token.json.bak
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Snowflake temp files
+workshop/data/agent_response.json
+workshop/data/agent_revenue.txt
+workshop/data/agent_sse.txt
+workshop/sql/__pycache__/
+
+# Test artifacts (regenerated on each run)
+workshop/data/labs/test_results.md
+workshop/data/labs/prompt_test_results.md

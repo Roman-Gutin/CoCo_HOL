@@ -1,0 +1,434 @@
+{
+  "2026-03-08": [
+    {
+      "event_id": "ek4s29lg92h305flh0v1og6rds",
+      "title": "Prehab: Hips/Ankles/Core",
+      "start": "2026-03-08T06:30:00-07:00",
+      "end": "2026-03-08T06:45:00-07:00"
+    },
+    {
+      "event_id": "u2etqk69ul4khs38j1s3pek9l0",
+      "title": "Breakfast: Protein Smoothie",
+      "start": "2026-03-08T07:15:00-07:00",
+      "end": "2026-03-08T07:30:00-07:00"
+    },
+    {
+      "event_id": "jj39511ktnqkde5bs5239gkvbs",
+      "title": "Lunch: Tuna Salad",
+      "start": "2026-03-08T12:00:00-07:00",
+      "end": "2026-03-08T12:30:00-07:00"
+    },
+    {
+      "event_id": "ntv6eva0mv053eu8s612br4qus",
+      "title": "Dinner: Ground Beef Pasta",
+      "start": "2026-03-08T18:30:00-07:00",
+      "end": "2026-03-08T19:15:00-07:00"
+    },
+    {
+      "event_id": "iplsb6pemqrai3e2nn2gsdmr9c",
+      "title": "Bathroom clean",
+      "start": "2026-03-08T07:30:00-07:00",
+      "end": "2026-03-08T07:50:00-07:00"
+    },
+    {
+      "event_id": "kvush38s594f6udalneqov699c",
+      "title": "Grocery run",
+      "start": "2026-03-08T08:00:00-07:00",
+      "end": "2026-03-08T09:00:00-07:00"
+    }
+  ],
+  "2026-03-09": [
+    {
+      "event_id": "mdfcacppnhj1p3sch6fvivo750",
+      "title": "Drive to gym",
+      "start": "2026-03-09T17:30:00-07:00",
+      "end": "2026-03-09T17:50:00-07:00"
+    },
+    {
+      "event_id": "ereurdfrb0f9hpb1ga035krng8",
+      "title": "Gym: Chest & Triceps",
+      "start": "2026-03-09T17:50:00-07:00",
+      "end": "2026-03-09T19:05:00-07:00"
+    },
+    {
+      "event_id": "omg04hgovrhng2a5i4nopirp48",
+      "title": "Drive home from gym",
+      "start": "2026-03-09T19:05:00-07:00",
+      "end": "2026-03-09T19:25:00-07:00"
+    },
+    {
+      "event_id": "it22iumacncto9g0m8o02c65cg",
+      "title": "Breakfast: Eggs Toast",
+      "start": "2026-03-09T07:00:00-07:00",
+      "end": "2026-03-09T07:15:00-07:00"
+    },
+    {
+      "event_id": "0bqnuq7edhdeo5aakl9ait94og",
+      "title": "Lunch: Chicken Rice Broccoli",
+      "start": "2026-03-09T12:00:00-07:00",
+      "end": "2026-03-09T12:30:00-07:00"
+    },
+    {
+      "event_id": "tv62so3n0denuki4ip5i69ii3s",
+      "title": "Dinner: Smoked Salmon Lox",
+      "start": "2026-03-09T19:30:00-07:00",
+      "end": "2026-03-09T20:15:00-07:00"
+    },
+    {
+      "event_id": "ccq2c5fmfjke51hehfd8ib8g8k",
+      "title": "Pack for SF Customer QBRs",
+      "start": "2026-03-09T20:15:00-07:00",
+      "end": "2026-03-09T20:45:00-07:00"
+    }
+  ],
+  "2026-03-12": [
+    {
+      "event_id": "qclgflmu8pm5a7jullndt76gus",
+      "title": "Drive to gym",
+      "start": "2026-03-12T17:30:00-07:00",
+      "end": "2026-03-12T17:50:00-07:00"
+    },
+    {
+      "event_id": "k7cslpk4vqq7d84ki4v10906vc",
+      "title": "Gym: Back, Shoulders & Biceps",
+      "start": "2026-03-12T17:50:00-07:00",
+      "end": "2026-03-12T19:05:00-07:00"
+    },
+    {
+      "event_id": "i260865dtq2mou1rqtr7lhm2ls",
+      "title": "Drive home from gym",
+      "start": "2026-03-12T19:05:00-07:00",
+      "end": "2026-03-12T19:25:00-07:00"
+    },
+    {
+      "event_id": "ie3e8tj48o8o8v104skfrlj1pg",
+      "title": "Prehab: Hips/Ankles/Core",
+      "start": "2026-03-12T06:30:00-07:00",
+      "end": "2026-03-12T06:45:00-07:00"
+    },
+    {
+      "event_id": "iutms3fcgee440beof312tt0ng",
+      "title": "Cardio: Pool Swim (Endurance)",
+      "start": "2026-03-12T06:45:00-07:00",
+      "end": "2026-03-12T07:10:00-07:00"
+    },
+    {
+      "event_id": "82pp599imbchumsdun7m4kj728",
+      "title": "Breakfast: Eggs Toast",
+      "start": "2026-03-12T07:15:00-07:00",
+      "end": "2026-03-12T07:30:00-07:00"
+    },
+    {
+      "event_id": "hanl5uhddaktsqnfpkapdn2fmc",
+      "title": "Lunch: Turkey Wrap",
+      "start": "2026-03-12T12:00:00-07:00",
+      "end": "2026-03-12T12:30:00-07:00"
+    },
+    {
+      "event_id": "annpp86ck047dls7f2nelgq51s",
+      "title": "Dinner: Chicken Tikka Masala",
+      "start": "2026-03-12T19:30:00-07:00",
+      "end": "2026-03-12T20:15:00-07:00"
+    }
+  ],
+  "2026-03-13": [
+    {
+      "event_id": "gf9951v61bk1f22thm7q3iob60",
+      "title": "Drive to gym",
+      "start": "2026-03-13T17:30:00-07:00",
+      "end": "2026-03-13T17:50:00-07:00"
+    },
+    {
+      "event_id": "qnp6k1jna4p3puvu7v6bri9dgg",
+      "title": "Gym: Legs (Quads/Hams/Glutes)",
+      "start": "2026-03-13T17:50:00-07:00",
+      "end": "2026-03-13T19:05:00-07:00"
+    },
+    {
+      "event_id": "o8785tkhdn515lf2sv6r9fe3g4",
+      "title": "Drive home from gym",
+      "start": "2026-03-13T19:05:00-07:00",
+      "end": "2026-03-13T19:25:00-07:00"
+    },
+    {
+      "event_id": "ia029d6c977fhku6dh6vmopn58",
+      "title": "Breakfast: Eggs Toast",
+      "start": "2026-03-13T07:00:00-07:00",
+      "end": "2026-03-13T07:15:00-07:00"
+    },
+    {
+      "event_id": "m2sm6ohid58esph8ssqleel3i4",
+      "title": "Lunch: Healthy Chicken Bowl",
+      "start": "2026-03-13T12:00:00-07:00",
+      "end": "2026-03-13T12:30:00-07:00"
+    },
+    {
+      "event_id": "4acr72p8rouar097m94f22hrds",
+      "title": "Dinner: Butter Chicken",
+      "start": "2026-03-13T19:30:00-07:00",
+      "end": "2026-03-13T20:15:00-07:00"
+    }
+  ],
+  "2026-03-14": [
+    {
+      "event_id": "rqmnb5rmnkj1157008nillaepc",
+      "title": "Prehab: Hips/Ankles/Core",
+      "start": "2026-03-14T06:30:00-07:00",
+      "end": "2026-03-14T06:45:00-07:00"
+    },
+    {
+      "event_id": "6h1qk3u5ubipjlkr2bc9j5m7s4",
+      "title": "Breakfast: Protein Smoothie",
+      "start": "2026-03-14T07:00:00-07:00",
+      "end": "2026-03-14T07:15:00-07:00"
+    },
+    {
+      "event_id": "d91j8mevoomkigdmnv6t4qmick",
+      "title": "Lunch: Butter Chicken",
+      "start": "2026-03-14T12:00:00-07:00",
+      "end": "2026-03-14T12:30:00-07:00"
+    },
+    {
+      "event_id": "eufd4c9osjc2eehar2rnl7rqb0",
+      "title": "Dinner: Weeknight Fried Rice",
+      "start": "2026-03-14T18:30:00-07:00",
+      "end": "2026-03-14T19:15:00-07:00"
+    },
+    {
+      "event_id": "gh1pbgkv456pg9r8sakmmut254",
+      "title": "Laundry",
+      "start": "2026-03-14T07:15:00-07:00",
+      "end": "2026-03-14T07:45:00-07:00"
+    },
+    {
+      "event_id": "odjjqej0rovpuapmsd3perc7s4",
+      "title": "Vacuum / Mop",
+      "start": "2026-03-14T07:45:00-07:00",
+      "end": "2026-03-14T08:30:00-07:00"
+    }
+  ],
+  "2026-03-15": [
+    {
+      "event_id": "li9nhmf2o3fqo7sqli58tk7mt0",
+      "title": "Prehab: Hips/Ankles/Core",
+      "start": "2026-03-15T06:30:00-07:00",
+      "end": "2026-03-15T06:45:00-07:00"
+    },
+    {
+      "event_id": "f07vku858hfkmlcmu28mmu166o",
+      "title": "Breakfast: Protein Smoothie",
+      "start": "2026-03-15T07:15:00-07:00",
+      "end": "2026-03-15T07:30:00-07:00"
+    },
+    {
+      "event_id": "nr38th8a00ru0fh0utqqvfke98",
+      "title": "Lunch: Tuna Salad",
+      "start": "2026-03-15T12:00:00-07:00",
+      "end": "2026-03-15T12:30:00-07:00"
+    },
+    {
+      "event_id": "053o1eacsjsr5qq6t9id07kofg",
+      "title": "Dinner: Ground Beef Pasta",
+      "start": "2026-03-15T18:30:00-07:00",
+      "end": "2026-03-15T19:15:00-07:00"
+    },
+    {
+      "event_id": "2epplj53g6lbct2fsmc26qgkpc",
+      "title": "Bathroom clean",
+      "start": "2026-03-15T07:30:00-07:00",
+      "end": "2026-03-15T07:50:00-07:00"
+    },
+    {
+      "event_id": "14bl72ib74ka8ituktnu64omag",
+      "title": "Grocery run",
+      "start": "2026-03-15T08:00:00-07:00",
+      "end": "2026-03-15T09:00:00-07:00"
+    }
+  ],
+  "2026-03-16": [
+    {
+      "event_id": "6afoma2mh1mj5bnve4l8s7mgkk",
+      "title": "Drive to gym",
+      "start": "2026-03-16T17:30:00-07:00",
+      "end": "2026-03-16T17:50:00-07:00"
+    },
+    {
+      "event_id": "ck3vokml2mf1tc206tqei6vkf4",
+      "title": "Gym: Chest & Triceps",
+      "start": "2026-03-16T17:50:00-07:00",
+      "end": "2026-03-16T19:05:00-07:00"
+    },
+    {
+      "event_id": "svkeorsa0jkqqg3uh2d02gogog",
+      "title": "Drive home from gym",
+      "start": "2026-03-16T19:05:00-07:00",
+      "end": "2026-03-16T19:25:00-07:00"
+    },
+    {
+      "event_id": "kmgonde2gjr7l4muliua274ngk",
+      "title": "Breakfast: Eggs Toast",
+      "start": "2026-03-16T07:00:00-07:00",
+      "end": "2026-03-16T07:15:00-07:00"
+    },
+    {
+      "event_id": "nug3237dqnva1ag39dtqqroems",
+      "title": "Lunch: Chicken Rice Broccoli",
+      "start": "2026-03-16T12:00:00-07:00",
+      "end": "2026-03-16T12:30:00-07:00"
+    },
+    {
+      "event_id": "ep3ftt1derfm7fjbatakh379dc",
+      "title": "Dinner: Smoked Salmon Lox",
+      "start": "2026-03-16T19:30:00-07:00",
+      "end": "2026-03-16T20:15:00-07:00"
+    }
+  ],
+  "2026-03-17": [
+    {
+      "event_id": "mng6j4igtgfn6hkuhn00rnq39s",
+      "title": "Prehab: Hips/Ankles/Core",
+      "start": "2026-03-17T06:30:00-07:00",
+      "end": "2026-03-17T06:45:00-07:00"
+    },
+    {
+      "event_id": "ss4jvd8hoet03384r1cipscr90",
+      "title": "Cardio: Pool Swim (Technique)",
+      "start": "2026-03-17T06:45:00-07:00",
+      "end": "2026-03-17T07:10:00-07:00"
+    },
+    {
+      "event_id": "57fedqt0cc552skstknlcn1nh4",
+      "title": "Breakfast: Protein Smoothie",
+      "start": "2026-03-17T07:15:00-07:00",
+      "end": "2026-03-17T07:30:00-07:00"
+    }
+  ],
+  "2026-03-18": [
+    {
+      "event_id": "galsneog9acnjbhc0vgdk8m79g",
+      "title": "Drive to gym",
+      "start": "2026-03-18T17:30:00-07:00",
+      "end": "2026-03-18T17:50:00-07:00"
+    },
+    {
+      "event_id": "ls66i8qqn8f0r7hu2ds8675a7s",
+      "title": "Gym: Back, Shoulders & Biceps",
+      "start": "2026-03-18T17:50:00-07:00",
+      "end": "2026-03-18T19:05:00-07:00"
+    },
+    {
+      "event_id": "ulgld5denm40fmtgp5bg50ds7c",
+      "title": "Drive home from gym",
+      "start": "2026-03-18T19:05:00-07:00",
+      "end": "2026-03-18T19:25:00-07:00"
+    }
+  ],
+  "2026-03-19": [
+    {
+      "event_id": "tu5o9cc62mkupmvfi0i67bn6fo",
+      "title": "Prehab: Hips/Ankles/Core",
+      "start": "2026-03-19T06:30:00-07:00",
+      "end": "2026-03-19T06:45:00-07:00"
+    },
+    {
+      "event_id": "u94801dbu5fgivp7q720khfog0",
+      "title": "Cardio: Pool Swim (Endurance)",
+      "start": "2026-03-19T06:45:00-07:00",
+      "end": "2026-03-19T07:10:00-07:00"
+    },
+    {
+      "event_id": "jn7fqdb87jdfk236ukli1crcoo",
+      "title": "Breakfast: Eggs Toast",
+      "start": "2026-03-19T07:15:00-07:00",
+      "end": "2026-03-19T07:30:00-07:00"
+    },
+    {
+      "event_id": "5k2ud4o0s9ps4bojkr891kgb5g",
+      "title": "Lunch: Turkey Wrap",
+      "start": "2026-03-19T12:00:00-07:00",
+      "end": "2026-03-19T12:30:00-07:00"
+    },
+    {
+      "event_id": "h175q1n6jtavhl4a8spdsfu5vo",
+      "title": "Dinner: Chicken Tikka Masala",
+      "start": "2026-03-19T18:30:00-07:00",
+      "end": "2026-03-19T19:15:00-07:00"
+    }
+  ],
+  "2026-03-20": [
+    {
+      "event_id": "q06a9pkfpg56p8qjmdfgr2oaq8",
+      "title": "Drive to gym",
+      "start": "2026-03-20T17:30:00-07:00",
+      "end": "2026-03-20T17:50:00-07:00"
+    },
+    {
+      "event_id": "5avnrglr3clbjmpnfsq08qh6sc",
+      "title": "Gym: Legs (Quads/Hams/Glutes)",
+      "start": "2026-03-20T17:50:00-07:00",
+      "end": "2026-03-20T19:05:00-07:00"
+    },
+    {
+      "event_id": "udb67r0s3991nt39s60r1v1mj4",
+      "title": "Drive home from gym",
+      "start": "2026-03-20T19:05:00-07:00",
+      "end": "2026-03-20T19:25:00-07:00"
+    },
+    {
+      "event_id": "q5psa9kmao62j1h0siif6817u0",
+      "title": "Breakfast: Eggs Toast",
+      "start": "2026-03-20T07:00:00-07:00",
+      "end": "2026-03-20T07:15:00-07:00"
+    },
+    {
+      "event_id": "v486huduot63349gk64843612c",
+      "title": "Lunch: Healthy Chicken Bowl",
+      "start": "2026-03-20T12:00:00-07:00",
+      "end": "2026-03-20T12:30:00-07:00"
+    },
+    {
+      "event_id": "u2af2q36t1uugfa38jdb5f68d8",
+      "title": "Dinner: Butter Chicken",
+      "start": "2026-03-20T19:30:00-07:00",
+      "end": "2026-03-20T20:15:00-07:00"
+    }
+  ],
+  "2026-03-21": [
+    {
+      "event_id": "57q5ak620bov4bel8vjced6jko",
+      "title": "Prehab: Hips/Ankles/Core",
+      "start": "2026-03-21T06:30:00-07:00",
+      "end": "2026-03-21T06:45:00-07:00"
+    },
+    {
+      "event_id": "2tqmoeksa3937l2aqjmfpsntr4",
+      "title": "Breakfast: Protein Smoothie",
+      "start": "2026-03-21T07:00:00-07:00",
+      "end": "2026-03-21T07:15:00-07:00"
+    },
+    {
+      "event_id": "51ghgqmjfghtokbeffif53quro",
+      "title": "Lunch: Butter Chicken",
+      "start": "2026-03-21T12:00:00-07:00",
+      "end": "2026-03-21T12:30:00-07:00"
+    },
+    {
+      "event_id": "ujk7en4oeiqeb5vbru0cqc6n14",
+      "title": "Dinner: Weeknight Fried Rice",
+      "start": "2026-03-21T18:30:00-07:00",
+      "end": "2026-03-21T19:15:00-07:00"
+    },
+    {
+      "event_id": "h34gjj1mo4p0mg1icg4ch7p4ms",
+      "title": "Laundry",
+      "start": "2026-03-21T07:15:00-07:00",
+      "end": "2026-03-21T07:45:00-07:00"
+    },
+    {
+      "event_id": "aalq634dtmh82t1qo2lc90vrr4",
+      "title": "Vacuum / Mop",
+      "start": "2026-03-21T07:45:00-07:00",
+      "end": "2026-03-21T08:30:00-07:00"
+    }
+  ]
+}

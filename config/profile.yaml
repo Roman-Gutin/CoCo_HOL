@@ -1,0 +1,65 @@
+user:
+  name: Roman
+  timezone: America/Los_Angeles
+
+work:
+  start: "08:30"
+  end: "17:00"
+  days: [mon, tue, wed, thu, fri]
+
+gym:
+  commute_minutes: 20
+  preferred_times: ["06:00", "17:30"]
+  session_duration_minutes: 75
+  days_per_week: 4
+  rest_days: [tue, thu]  # non-lifting days
+
+meals:
+  prep_time_minutes:
+    breakfast: 15
+    lunch: 30
+    dinner: 45
+  preferred_times:
+    breakfast: "07:00"
+    lunch: "12:00"
+    dinner: "18:30"
+  batch_cook_day: sun
+  batch_cook_duration_minutes: 120
+
+rg_capital:
+  project_root: /home/roman/RG_Capital
+  review_duration_minutes: 30
+  preferred_review_time: "21:00"
+  desks:
+    - delta_one
+    - letf_arb
+    - ls_fund
+    - market_making
+    - short_squeeze
+    - short_vol
+    - vol_fund
+
+chores:
+  weekly:
+    - name: Laundry
+      duration_minutes: 30
+      preferred_day: saturday
+    - name: Vacuum / Mop
+      duration_minutes: 45
+      preferred_day: saturday
+    - name: Bathroom clean
+      duration_minutes: 20
+      preferred_day: sunday
+    - name: Grocery run
+      duration_minutes: 60
+      preferred_day: sunday
+
+social:
+  min_hours_per_week: 4
+  preferred_slots: ["friday_evening", "saturday", "sunday"]
+
+google:
+  credentials_path: ~/.config/second_brain/google_credentials.json
+  token_path: ~/.config/second_brain/token.json
+  calendar_id: primary
+  managed_tag: second_brain

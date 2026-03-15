@@ -1,0 +1,14 @@
+{
+  "changes": [
+    {
+      "type": "time_moved",
+      "date": "2026-03-08",
+      "title": "Dinner: Ground Beef Pasta",
+      "original_start": "2026-03-08T18:30:00-07:00",
+      "original_end": "2026-03-08T19:15:00-07:00",
+      "new_start": "2026-03-08T19:30:00-07:00",
+      "new_end": "2026-03-08T20:15:00-07:00",
+      "detected_at": "2026-03-08T18:26:27.341651-07:00"
+    }
+  ]
+}

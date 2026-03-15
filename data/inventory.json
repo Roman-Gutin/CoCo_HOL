@@ -1,0 +1,177 @@
+{
+  "last_updated": "2026-03-07T19:48:31.748655",
+  "fridge": [
+    {
+      "item": "smoked_salmon",
+      "quantity": 2,
+      "unit": "packs",
+      "weight_lbs": null,
+      "notes": "Kirkland Signature Smoked Salmon, 2-pack",
+      "purchased": "2026-03-07",
+      "source": "costco",
+      "use_by": "2026-03-21"
+    },
+    {
+      "item": "strawberries",
+      "quantity": 1,
+      "unit": "pack",
+      "weight_lbs": 2.0,
+      "notes": "Kirkland Signature Strawberries, 2 lb clamshell",
+      "purchased": "2026-03-07",
+      "source": "costco",
+      "use_by": "2026-03-12"
+    },
+    {
+      "item": "avocados",
+      "quantity": 6,
+      "unit": "count",
+      "notes": "Kirkland Signature Avocados, bag of 6",
+      "purchased": "2026-03-07",
+      "source": "costco",
+      "use_by": "2026-03-14"
+    },
+    {
+      "item": "bananas",
+      "quantity": 3,
+      "unit": "lbs",
+      "notes": "~6-7 bananas",
+      "purchased": "2026-03-07",
+      "source": "costco",
+      "use_by": "2026-03-12"
+    },
+    {
+      "item": "buns",
+      "quantity": 9,
+      "unit": "count",
+      "notes": "12 pack",
+      "purchased": "2026-03-07",
+      "source": "costco",
+      "use_by": "2026-03-14"
+    },
+    {
+      "item": "greek_yogurt",
+      "quantity": 1,
+      "unit": "tub",
+      "purchased": "2026-03-07",
+      "source": "on_hand",
+      "notes": "For raita and breakfast",
+      "use_by": "2026-03-20"
+    },
+    {
+      "item": "darigold_protein_milk",
+      "quantity": 1,
+      "unit": "carton",
+      "purchased": "2026-03-07",
+      "source": "on_hand",
+      "notes": "Darigold FIT high protein low fat milk",
+      "use_by": "2026-03-20"
+    }
+  ],
+  "pantry": [
+    {
+      "item": "water_gallon",
+      "quantity": 2,
+      "unit": "gallon",
+      "purchased": "2026-03-07",
+      "source": "costco"
+    },
+    {
+      "item": "cascadian_boost",
+      "quantity": 1,
+      "unit": "box",
+      "purchased": "2026-03-07",
+      "source": "costco"
+    },
+    {
+      "item": "towelettes",
+      "quantity": 1,
+      "unit": "pack",
+      "purchased": "2026-03-07",
+      "source": "costco"
+    },
+    {
+      "item": "pillows",
+      "quantity": 1,
+      "unit": "pack",
+      "purchased": "2026-03-07",
+      "source": "costco"
+    },
+    {
+      "item": "russet_potatoes",
+      "quantity": 1,
+      "unit": "sack",
+      "purchased": "2026-03-07",
+      "source": "on_hand",
+      "notes": "Large sack of russet potatoes"
+    },
+    {
+      "item": "rice",
+      "quantity": 1,
+      "unit": "bag",
+      "purchased": "2026-03-07",
+      "source": "on_hand",
+      "notes": "Large bag, staple"
+    }
+  ],
+  "freezer": [
+    {
+      "item": "chicken_breast",
+      "quantity": 1,
+      "unit": "pack",
+      "weight_lbs": null,
+      "notes": "Kirkland Signature Organic Boneless Skinless Chicken Breast",
+      "purchased": "2026-03-07",
+      "source": "costco",
+      "use_by": "2026-03-12"
+    },
+    {
+      "item": "ground_beef",
+      "quantity": 2,
+      "unit": "pieces",
+      "weight_lbs": 4.0,
+      "notes": "3 pieces, ~1-1.5 lbs each. Organic.",
+      "purchased": "2026-03-07",
+      "source": "costco",
+      "use_by": "2026-03-12"
+    }
+  ],
+  "log": [
+    {
+      "date": "2026-03-07",
+      "action": "purchased",
+      "source": "costco",
+      "total": 179.15,
+      "items_count": 15
+    },
+    {
+      "date": "2026-03-07",
+      "action": "consumed_partial",
+      "item": "ground_beef",
+      "quantity_used": 1,
+      "remaining": 2,
+      "unit": "pieces"
+    },
+    {
+      "date": "2026-03-07",
+      "action": "consumed_partial",
+      "item": "buns",
+      "quantity_used": 3,
+      "remaining": 9,
+      "unit": "count"
+    },
+    {
+      "date": "2026-03-07",
+      "action": "moved",
+      "item": "chicken_breast",
+      "from": "fridge",
+      "to": "freezer"
+    },
+    {
+      "date": "2026-03-07",
+      "action": "moved",
+      "item": "ground_beef",
+      "from": "fridge",
+      "to": "freezer"
+    }
+  ]
+}

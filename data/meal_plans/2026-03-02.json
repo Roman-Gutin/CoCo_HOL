@@ -1,0 +1,40 @@
+{
+  "week_start": "2026-03-02",
+  "days": {
+    "mon": {
+      "breakfast": "eggs_toast",
+      "lunch": "turkey_wrap",
+      "dinner": "burgers"
+    },
+    "tue": {
+      "breakfast": "protein_smoothie",
+      "lunch": "tuna_salad",
+      "dinner": "stir_fry"
+    },
+    "wed": {
+      "breakfast": "eggs_toast",
+      "lunch": "chicken_rice_broccoli",
+      "dinner": "ground_beef_pasta"
+    },
+    "thu": {
+      "breakfast": "protein_smoothie",
+      "lunch": "turkey_wrap",
+      "dinner": "salmon_sweet_potato"
+    },
+    "fri": {
+      "breakfast": "eggs_toast",
+      "lunch": "tuna_salad",
+      "dinner": "burgers"
+    },
+    "sat": {
+      "breakfast": "protein_smoothie",
+      "lunch": "healthy_chicken_bowl",
+      "dinner": "burgers"
+    },
+    "sun": {
+      "breakfast": "protein_smoothie",
+      "lunch": "smoked_salmon_bowl",
+      "dinner": "ground_beef_pasta"
+    }
+  }
+}

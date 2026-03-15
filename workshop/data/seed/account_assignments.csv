@@ -1,0 +1,45 @@
+assignment_id,account_id,account_name,employee_id,employee_name,role,assigned_date,unassigned_date,is_current
+ASSIGN-001,ACC-001,Meridian Media Group,EMP-006,Jake Torres,AE,2025-06-01,2026-01-15,FALSE
+ASSIGN-002,ACC-001,Meridian Media Group,EMP-007,Lisa Patel,AE,2026-02-05,,TRUE
+ASSIGN-003,ACC-001,Meridian Media Group,EMP-001,Sarah Chen,CSM,2025-06-01,,TRUE
+ASSIGN-004,ACC-002,Cascade Financial,EMP-008,Ryan Nakamura,AE,2025-04-01,,TRUE
+ASSIGN-005,ACC-002,Cascade Financial,EMP-002,Marcus Rivera,CSM,2025-04-01,,TRUE
+ASSIGN-006,ACC-003,Beacon Logistics,EMP-006,Jake Torres,AE,2025-03-15,2026-01-15,FALSE
+ASSIGN-007,ACC-003,Beacon Logistics,EMP-010,Kevin McBride,AE,2026-01-16,,TRUE
+ASSIGN-008,ACC-003,Beacon Logistics,EMP-003,Emily Thornton,CSM,2025-03-15,,TRUE
+ASSIGN-009,ACC-004,Prism Retail,EMP-013,Maria Santos,AE,2025-07-01,,TRUE
+ASSIGN-010,ACC-004,Prism Retail,EMP-004,James Okafor,CSM,2025-07-01,,TRUE
+ASSIGN-011,ACC-005,Atlas Digital,EMP-011,Priya Sharma,AE,2025-01-15,,TRUE
+ASSIGN-012,ACC-005,Atlas Digital,EMP-005,Rachel Goldstein,CSM,2025-01-15,,TRUE
+ASSIGN-013,ACC-006,Summit Healthcare,EMP-008,Ryan Nakamura,AE,2025-09-01,,TRUE
+ASSIGN-014,ACC-006,Summit Healthcare,EMP-001,Sarah Chen,CSM,2025-09-01,,TRUE
+ASSIGN-015,ACC-007,Voyager Entertainment,EMP-011,Priya Sharma,AE,2024-06-01,,TRUE
+ASSIGN-016,ACC-007,Voyager Entertainment,EMP-002,Marcus Rivera,CSM,2024-06-01,,TRUE
+ASSIGN-017,ACC-008,Ironclad Manufacturing,EMP-007,Lisa Patel,AE,2025-05-01,,TRUE
+ASSIGN-018,ACC-008,Ironclad Manufacturing,EMP-003,Emily Thornton,CSM,2025-05-01,,TRUE
+ASSIGN-019,ACC-009,Northstar Consulting,EMP-008,Ryan Nakamura,AE,2025-02-01,,TRUE
+ASSIGN-020,ACC-009,Northstar Consulting,EMP-004,James Okafor,CSM,2025-02-01,,TRUE
+ASSIGN-021,ACC-010,Ridgeline Media,EMP-011,Priya Sharma,AE,2025-03-01,,TRUE
+ASSIGN-022,ACC-010,Ridgeline Media,EMP-005,Rachel Goldstein,CSM,2025-03-01,,TRUE
+ASSIGN-023,ACC-011,Clearwater Tech,EMP-013,Maria Santos,AE,2025-01-15,,TRUE
+ASSIGN-024,ACC-011,Clearwater Tech,EMP-001,Sarah Chen,CSM,2025-01-15,,TRUE
+ASSIGN-025,ACC-012,Horizon Pharma,EMP-007,Lisa Patel,AE,2025-06-01,,TRUE
+ASSIGN-026,ACC-012,Horizon Pharma,EMP-002,Marcus Rivera,CSM,2025-06-01,,TRUE
+ASSIGN-027,ACC-013,Sterling Partners,EMP-012,Tom Westfield,AE,2025-04-01,,TRUE
+ASSIGN-028,ACC-013,Sterling Partners,EMP-003,Emily Thornton,CSM,2025-04-01,,TRUE
+ASSIGN-029,ACC-014,Apex Marketing,EMP-008,Ryan Nakamura,AE,2025-05-01,,TRUE
+ASSIGN-030,ACC-014,Apex Marketing,EMP-004,James Okafor,CSM,2025-05-01,,TRUE
+ASSIGN-031,ACC-019,Pinnacle Sports,EMP-013,Maria Santos,AE,2025-07-01,,TRUE
+ASSIGN-032,ACC-019,Pinnacle Sports,EMP-004,James Okafor,CSM,2025-07-01,,TRUE
+ASSIGN-033,ACC-020,Crestline Analytics,EMP-011,Priya Sharma,AE,2025-08-01,,TRUE
+ASSIGN-034,ACC-020,Crestline Analytics,EMP-005,Rachel Goldstein,CSM,2025-08-01,,TRUE
+ASSIGN-035,ACC-015,Cobalt Aerospace,EMP-007,Lisa Patel,AE,2025-08-01,,TRUE
+ASSIGN-036,ACC-015,Cobalt Aerospace,EMP-005,Rachel Goldstein,CSM,2025-08-01,,TRUE
+ASSIGN-037,ACC-016,Driftwood Media,EMP-009,Diana Osei,AE,2025-04-01,2026-02-01,FALSE
+ASSIGN-038,ACC-016,Driftwood Media,EMP-012,Tom Westfield,AE,2026-02-01,,TRUE
+ASSIGN-039,ACC-016,Driftwood Media,EMP-001,Sarah Chen,CSM,2025-04-01,,TRUE
+ASSIGN-040,ACC-017,Evergreen Education,EMP-009,Diana Osei,AE,2025-05-01,2026-02-01,FALSE
+ASSIGN-041,ACC-017,Evergreen Education,EMP-012,Tom Westfield,AE,2026-02-01,,TRUE
+ASSIGN-042,ACC-017,Evergreen Education,EMP-002,Marcus Rivera,CSM,2025-05-01,,TRUE
+ASSIGN-043,ACC-018,Flux Dynamics,EMP-011,Priya Sharma,AE,2025-02-01,,TRUE
+ASSIGN-044,ACC-018,Flux Dynamics,EMP-003,Emily Thornton,CSM,2025-02-01,,TRUE

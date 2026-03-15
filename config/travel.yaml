@@ -1,0 +1,14 @@
+# Travel schedule and blackout dates
+# Roman LIVES in Vegas — only blackout actual away days
+blackout_dates:
+  - "2026-03-10"  # Tue - fly to SF 6 AM
+  - "2026-03-11"  # Wed - SF onsites/QBRs, fly home 5:10 PM
+
+trips:
+  - name: "SF Customer QBRs"
+    depart_date: "2026-03-10"
+    depart_flight: "06:00"
+    return_date: "2026-03-11"
+    return_flight: "17:10"
+    pack_night_before: true
+    pack_duration_minutes: 30

@@ -1,0 +1,539 @@
+preferences:
+  diet: balanced_high_protein
+  daily_targets:
+    calories: 2500
+    protein_g: 180
+    carbs_g: 250
+    fat_g: 80
+  allergies: []
+  dislikes: [overnight_oats]
+
+meals:
+  # --- Joshua Weissman high protein alfredo ---
+  protein_alfredo:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 30
+    servings: 4
+    tags: [high_protein, low_fat, batch_friendly]
+    source: "Joshua Weissman"
+    url: "https://www.joshuaweissman.com/recipes/easy-low-calorie-52g-protein-alfredo-pasta"
+    macros:
+      calories: 470
+      protein_g: 52
+      carbs_g: 53
+      fat_g: 6
+    ingredients:
+      cauliflower: 1 head (2 lbs)
+      chicken_breast: 1.5 lbs
+      fettuccine: 0.5 lb
+      skim_milk: 0.5 cup
+      parmigiano_reggiano: 0.25 cup grated
+      pecorino_romano: 0.25 cup grated
+      garlic: 3 cloves
+      chicken_bouillon: 0.5 tsp
+    notes: "Boil cauliflower until very tender, blend with milk+cheese+garlic into sauce. Sear chicken. Toss pasta with sauce. 52g protein, 470 cal, 6g fat per serving."
+
+  # No-cook meals
+  smoked_salmon_lox:
+    type: dinner
+    prep_minutes: 5
+    cook_minutes: 0
+    servings: 1
+    tags: [quick, no_cook, high_protein]
+    macros:
+      calories: 520
+      protein_g: 38
+      carbs_g: 36
+      fat_g: 26
+    ingredients:
+      smoked_salmon: 1 pack
+      avocado: 1
+      bread: 2 slices
+      eggs: 2
+    notes: "Lox avocado toast, or smoked salmon as side with omelette. Can add capers, red onion, cream cheese."
+
+  # Placeholder for travel/dining out days
+  eating_out:
+    type: any
+    prep_minutes: 0
+    cook_minutes: 0
+    servings: 1
+    tags: [travel]
+    ingredients: {}
+    notes: "Eating out or travel day — no cooking"
+
+  # Quick breakfasts
+  overnight_oats:
+    type: breakfast
+    prep_minutes: 5
+    cook_minutes: 0
+    servings: 1
+    tags: [quick, no_cook, batch_friendly]
+    macros:
+      calories: 380
+      protein_g: 20
+      carbs_g: 55
+      fat_g: 9
+    ingredients:
+      oats: 0.5 cup
+      milk: 0.5 cup
+      greek_yogurt: 0.5 cup
+      berries: 0.5 cup
+      honey: 1 tbsp
+
+  eggs_toast:
+    type: breakfast
+    prep_minutes: 10
+    cook_minutes: 5
+    servings: 1
+    tags: [quick]
+    macros:
+      calories: 490
+      protein_g: 24
+      carbs_g: 34
+      fat_g: 28
+    ingredients:
+      eggs: 3
+      bread: 2 slices
+      avocado: 0.5
+
+  protein_smoothie:
+    type: breakfast
+    prep_minutes: 5
+    cook_minutes: 0
+    servings: 1
+    tags: [quick, no_cook]
+    macros:
+      calories: 420
+      protein_g: 40
+      carbs_g: 45
+      fat_g: 12
+    ingredients:
+      protein_powder: 1 scoop
+      banana: 1
+      peanut_butter: 1 tbsp
+      darigold_protein_milk: 1 cup
+      strawberries: 0.5 cup
+
+  # Lunches
+  chicken_rice_broccoli:
+    type: lunch
+    prep_minutes: 15
+    cook_minutes: 25
+    servings: 4
+    tags: [high_protein, batch_friendly]
+    macros:
+      calories: 480
+      protein_g: 45
+      carbs_g: 50
+      fat_g: 10
+    ingredients:
+      chicken_breast: 2 lbs
+      rice: 2 cups
+      broccoli: 1 head
+      olive_oil: 2 tbsp
+      garlic: 3 cloves
+
+  turkey_wrap:
+    type: lunch
+    prep_minutes: 10
+    cook_minutes: 0
+    servings: 1
+    tags: [quick, no_cook]
+    macros:
+      calories: 380
+      protein_g: 35
+      carbs_g: 32
+      fat_g: 12
+    ingredients:
+      turkey_deli: 6 oz
+      tortilla: 1 large
+      lettuce: 2 leaves
+      tomato: 0.5
+      mustard: 1 tbsp
+
+  tuna_salad:
+    type: lunch
+    prep_minutes: 10
+    cook_minutes: 0
+    servings: 2
+    tags: [quick, no_cook, high_protein]
+    macros:
+      calories: 350
+      protein_g: 40
+      carbs_g: 8
+      fat_g: 18
+    ingredients:
+      canned_tuna: 2 cans
+      mayo: 2 tbsp
+      celery: 2 stalks
+      mixed_greens: 2 cups
+
+  # Dinners
+  burgers:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 15
+    servings: 3
+    tags: [high_protein, quick, batch_friendly]
+    macros:
+      calories: 650
+      protein_g: 42
+      carbs_g: 30
+      fat_g: 38
+    ingredients:
+      ground_beef: 1.5 lbs
+      buns: 3
+      lettuce: 3 leaves
+      tomato: 1
+      onion: 0.5
+      cheese: 3 slices
+    notes: "Season patties with salt, pepper, garlic powder. 1/2 lb each."
+
+  salmon_sweet_potato:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 25
+    servings: 2
+    tags: [high_protein, omega3]
+    macros:
+      calories: 560
+      protein_g: 45
+      carbs_g: 42
+      fat_g: 20
+    ingredients:
+      salmon_fillet: 1 lb
+      sweet_potato: 2
+      asparagus: 1 bunch
+      lemon: 1
+      olive_oil: 2 tbsp
+
+  stir_fry:
+    type: dinner
+    prep_minutes: 15
+    cook_minutes: 15
+    servings: 3
+    tags: [batch_friendly, quick]
+    macros:
+      calories: 520
+      protein_g: 38
+      carbs_g: 48
+      fat_g: 16
+    ingredients:
+      chicken_thigh: 1.5 lbs
+      bell_peppers: 2
+      broccoli: 1 head
+      soy_sauce: 3 tbsp
+      rice: 2 cups
+      sesame_oil: 1 tbsp
+
+  ground_beef_pasta:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 20
+    servings: 4
+    tags: [batch_friendly, comfort]
+    macros:
+      calories: 620
+      protein_g: 38
+      carbs_g: 58
+      fat_g: 24
+    ingredients:
+      ground_beef: 1.5 lbs
+      pasta: 1 lb
+      marinara: 1 jar
+      garlic: 4 cloves
+      parmesan: 0.25 cup
+
+  sheet_pan_chicken_veggies:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 30
+    servings: 3
+    tags: [easy, batch_friendly]
+    macros:
+      calories: 450
+      protein_g: 40
+      carbs_g: 15
+      fat_g: 25
+    ingredients:
+      chicken_thigh: 2 lbs
+      zucchini: 2
+      bell_peppers: 2
+      onion: 1
+      olive_oil: 3 tbsp
+
+  # --- Tikka Masala + Raita (Roman's request) ---
+  chicken_tikka_masala:
+    type: dinner
+    prep_minutes: 20
+    cook_minutes: 35
+    servings: 5
+    tags: [high_protein, batch_friendly, indian]
+    source: "Joshua Weissman"
+    url: "https://www.joshuaweissman.com/recipes/best-chicken-tikka-masala-recipe"
+    macros:
+      calories: 480
+      protein_g: 36
+      carbs_g: 12
+      fat_g: 32
+    ingredients:
+      chicken_thigh: 2 lbs
+      greek_yogurt: 1 cup
+      garam_masala: 2 tbsp
+      turmeric: 1 tsp
+      cumin_ground: 2 tsp
+      coriander_ground: 1 tsp
+      kashmiri_chili: 1 tbsp
+      garlic: 7 cloves
+      ginger: 2 inches
+      butter: 4 tbsp
+      onion: 1 large
+      canned_tomatoes: 28 oz can
+      heavy_cream: 1.25 cups
+      cilantro: 1 bunch
+      kasoori_methi: 1 tsp
+      lemon: 1
+    notes: "Marinate chicken in yogurt+spices 30min-overnight. Broil chicken, make sauce, combine. Serve over rice."
+
+  cucumber_raita:
+    type: side
+    prep_minutes: 10
+    cook_minutes: 0
+    servings: 4
+    tags: [quick, no_cook, indian, side]
+    macros:
+      calories: 60
+      protein_g: 5
+      carbs_g: 5
+      fat_g: 2
+    ingredients:
+      greek_yogurt: 1.5 cups
+      cucumber: 1 medium
+      cumin_ground: 0.5 tsp
+      mint: 1 tbsp fresh
+      cilantro: 1 tbsp fresh
+    notes: "Grate cucumber, squeeze out water. Mix into yogurt with spices. Chill 10 min."
+
+  # --- Andy Cooks ---
+  chicken_burrito_bowl:
+    type: dinner
+    prep_minutes: 15
+    cook_minutes: 30
+    servings: 4
+    tags: [high_protein, batch_friendly, mexican]
+    source: "Andy Cooks"
+    url: "https://www.andy-cooks.com/blogs/recipes/chicken-burrito-bowl"
+    macros:
+      calories: 550
+      protein_g: 40
+      carbs_g: 55
+      fat_g: 18
+    ingredients:
+      chicken_thigh: 1.5 lbs
+      black_beans: 1 can
+      rice: 2 cups
+      corn: 2 ears
+      tomato: 2
+      onion: 1
+      avocado: 1
+      limes: 2
+      cilantro: 1 bunch
+      cumin_ground: 1 tbsp
+      paprika: 1 tsp
+    notes: "Keep components separate for meal prep. Season chicken with cumin, coriander, paprika, chili."
+
+  butter_chicken:
+    type: dinner
+    prep_minutes: 15
+    cook_minutes: 30
+    servings: 5
+    tags: [high_protein, batch_friendly, indian]
+    source: "Andy Cooks"
+    url: "https://www.andy-cooks.com/blogs/recipes/butter-chicken"
+    macros:
+      calories: 450
+      protein_g: 34
+      carbs_g: 8
+      fat_g: 30
+    ingredients:
+      chicken_thigh: 2 lbs
+      greek_yogurt: 0.5 cup
+      butter: 3 tbsp
+      heavy_cream: 1 cup
+      canned_tomatoes: 14 oz can
+      onion: 1
+      garlic: 4 cloves
+      ginger: 1 inch
+      garam_masala: 1 tbsp
+      turmeric: 1 tsp
+      cumin_ground: 1 tsp
+      kashmiri_chili: 1 tsp
+    notes: "Marinate chicken in yogurt+spices. Tastes better next day. Freezes well."
+
+  pressure_cooker_chicken_rice:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 15
+    servings: 5
+    tags: [high_protein, batch_friendly, one_pot]
+    source: "Andy Cooks"
+    url: "https://www.andy-cooks.com/blogs/recipes/pressure-cooker-chicken-and-rice"
+    macros:
+      calories: 440
+      protein_g: 32
+      carbs_g: 48
+      fat_g: 12
+    ingredients:
+      chicken_thigh: 1.5 lbs
+      rice: 2 cups
+      chicken_stock: 2.75 cups
+      onion: 1
+      garlic: 0.5 head
+      smoked_paprika: 1 tbsp
+      cumin_ground: 1 tsp
+    notes: "One-pot meal. Sear chicken, add everything, 6 min under pressure."
+
+  # --- Joshua Weissman ---
+  healthy_chicken_bowl:
+    type: lunch
+    prep_minutes: 10
+    cook_minutes: 15
+    servings: 3
+    tags: [high_protein, quick, asian]
+    source: "Joshua Weissman"
+    url: "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home"
+    macros:
+      calories: 520
+      protein_g: 42
+      carbs_g: 50
+      fat_g: 16
+    ingredients:
+      chicken_thigh: 1.5 lbs
+      rice: 2 cups
+      broccoli: 1 head
+      edamame: 1 cup
+      carrot: 2
+      avocado: 1
+    notes: "Season chicken, cook while rice goes. Quick pickled carrots. Furikake on top."
+
+  budget_burrito_bowl:
+    type: lunch
+    prep_minutes: 10
+    cook_minutes: 20
+    servings: 4
+    tags: [high_protein, batch_friendly, mexican]
+    source: "Joshua Weissman"
+    url: "https://www.joshuaweissman.com/recipes/cheap-healthy-burrito-bowl-recipe"
+    macros:
+      calories: 480
+      protein_g: 38
+      carbs_g: 52
+      fat_g: 14
+    ingredients:
+      chicken_thigh: 1.5 lbs
+      black_beans: 1 can
+      rice: 2 cups
+      corn: 1 can
+      tomato: 2
+      greek_yogurt: 0.25 cup
+      limes: 1
+    notes: "Greek yogurt lime sauce instead of sour cream. Designed for weekly prep."
+
+  # --- Brian Lagerstrom ---
+  beef_broccoli:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 10
+    servings: 3
+    tags: [high_protein, quick, asian]
+    source: "Brian Lagerstrom"
+    url: "https://www.brianlagerstrom.com/recipes/15-minute-beef-amp-broccoli"
+    macros:
+      calories: 440
+      protein_g: 36
+      carbs_g: 18
+      fat_g: 24
+    ingredients:
+      flank_steak: 1 lb
+      broccoli: 1 head
+      onion: 0.5
+      garlic: 3 cloves
+      ginger: 1 inch
+      soy_sauce: 3 tbsp
+      sesame_oil: 1 tbsp
+      cornstarch: 1 tbsp
+    notes: "Baking soda trick keeps beef tender on reheat. 15 min total."
+
+  sheet_pan_fajitas:
+    type: dinner
+    prep_minutes: 10
+    cook_minutes: 25
+    servings: 4
+    tags: [high_protein, easy, batch_friendly, mexican]
+    source: "Brian Lagerstrom"
+    url: "https://www.brianlagerstrom.com/recipes/sheet-pan-fajitas"
+    macros:
+      calories: 420
+      protein_g: 36
+      carbs_g: 20
+      fat_g: 22
+    ingredients:
+      chicken_thigh: 1.5 lbs
+      bell_peppers: 3
+      onion: 1
+      poblano_pepper: 1
+      limes: 2
+      cumin_ground: 1 tsp
+      chili_powder: 1 tsp
+    notes: "Sheet pan = minimal effort. Serve with rice or tortillas."
+
+  weeknight_fried_rice:
+    type: dinner
+    prep_minutes: 5
+    cook_minutes: 10
+    servings: 3
+    tags: [quick, batch_friendly, asian, fridge_cleanout]
+    source: "Brian Lagerstrom"
+    url: "https://www.brianlagerstrom.com/recipes/weeknight-fried-rice"
+    macros:
+      calories: 380
+      protein_g: 14
+      carbs_g: 52
+      fat_g: 12
+    ingredients:
+      rice: 3 cups cooked
+      eggs: 3
+      soy_sauce: 2 tbsp
+      sesame_oil: 1 tbsp
+      garlic: 2 cloves
+      ginger: 1 inch
+    notes: "Use day-old rice. Add any leftover protein/veg from fridge."
+
+pantry_staples:
+  - rice
+  - pasta
+  - olive_oil
+  - soy_sauce
+  - eggs
+  - milk
+  - bread
+  - oats
+  - protein_powder
+  - peanut_butter
+  - garlic
+  - ginger
+  - salt
+  - pepper
+  - spice_mix
+  - cumin_ground
+  - garam_masala
+  - turmeric
+  - paprika
+  - chili_powder
+  - coriander_ground
+  - cornstarch
+  - sesame_oil
+  - butter
+  - russet_potatoes

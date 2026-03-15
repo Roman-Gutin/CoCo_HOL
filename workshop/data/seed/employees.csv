@@ -1,0 +1,21 @@
+employee_id,name,title,role,department,hire_date,departure_date,departure_reason,status
+EMP-001,Sarah Chen,Senior Customer Success Manager,CSM,Customer Success,2023-03-15,,,active
+EMP-002,Marcus Rivera,Customer Success Manager,CSM,Customer Success,2023-08-01,,,active
+EMP-003,Emily Thornton,Senior Customer Success Manager,CSM,Customer Success,2022-11-10,,,active
+EMP-004,James Okafor,Customer Success Manager,CSM,Customer Success,2024-02-20,,,active
+EMP-005,Rachel Goldstein,Customer Success Manager,CSM,Customer Success,2024-06-01,,,active
+EMP-006,Jake Torres,Senior Account Executive,AE,Sales,2022-05-01,2026-01-15,resigned,departed
+EMP-007,Lisa Patel,Account Executive,AE,Sales,2024-01-10,,,active
+EMP-008,Ryan Nakamura,Senior Account Executive,AE,Sales,2023-04-15,,,active
+EMP-009,Diana Osei,Account Executive,AE,Sales,2023-09-01,2026-02-01,parental_leave,on_leave
+EMP-010,Kevin McBride,Account Executive,AE,Sales,2025-11-03,,,active
+EMP-011,Priya Sharma,Senior Account Executive,AE,Sales,2022-08-15,,,active
+EMP-012,Tom Westfield,Account Executive,AE,Sales,2024-03-20,,,active
+EMP-013,Maria Santos,Account Executive,AE,Sales,2024-07-01,,,active
+EMP-014,Alex Kim,Solutions Engineer,SE,Solutions Engineering,2023-06-01,,,active
+EMP-015,Jordan Blake,Senior Solutions Engineer,SE,Solutions Engineering,2022-09-15,,,active
+EMP-016,Nina Vasquez,Solutions Engineer,SE,Solutions Engineering,2024-04-10,,,active
+EMP-017,Chris Langford,Solutions Engineer,SE,Solutions Engineering,2024-09-01,,,active
+EMP-018,Patricia Huang,VP of Customer Success,Manager,Customer Success,2021-06-01,,,active
+EMP-019,Michael Reeves,VP of Sales,Manager,Sales,2021-03-15,,,active
+EMP-020,Sandra Liu,Director of Solutions Engineering,Manager,Solutions Engineering,2022-01-10,,,active

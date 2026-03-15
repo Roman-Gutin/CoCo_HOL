@@ -1,0 +1,138 @@
+{
+  "berries": [
+    "0.5 cup (mon breakfast)",
+    "0.5 cup (thu breakfast)",
+    "0.5 cup (sun breakfast)"
+  ],
+  "honey": [
+    "1 tbsp (mon breakfast)",
+    "1 tbsp (thu breakfast)",
+    "1 tbsp (sun breakfast)"
+  ],
+  "broccoli": [
+    "1 head (mon lunch)",
+    "1 head (wed lunch)",
+    "1 head (sat lunch)"
+  ],
+  "lettuce": [
+    "3 leaves (mon dinner)",
+    "3 leaves (tue dinner)",
+    "2 leaves (thu lunch)"
+  ],
+  "tomato": [
+    "1 (mon dinner)",
+    "2 (tue lunch)",
+    "1 (tue dinner)",
+    "0.5 (thu lunch)",
+    "2 (sun lunch)"
+  ],
+  "onion": [
+    "0.5 (mon dinner)",
+    "0.5 (tue dinner)",
+    "1 large (wed dinner)",
+    "1 large (thu dinner)",
+    "1 (fri dinner)",
+    "1 (sat dinner)"
+  ],
+  "cheese": [
+    "3 slices (mon dinner)",
+    "3 slices (tue dinner)"
+  ],
+  "banana": [
+    "1 (tue breakfast)",
+    "1 (fri breakfast)"
+  ],
+  "spinach": [
+    "1 handful (tue breakfast)",
+    "1 handful (fri breakfast)"
+  ],
+  "chicken_thigh": [
+    "1.5 lbs (tue lunch)",
+    "1.5 lbs (wed lunch)",
+    "2 lbs (wed dinner)",
+    "2 lbs (thu dinner)",
+    "2 lbs (fri dinner)",
+    "2 lbs (sat dinner)",
+    "1.5 lbs (sun lunch)"
+  ],
+  "black_beans": [
+    "1 can (tue lunch)",
+    "1 can (sun lunch)"
+  ],
+  "corn": [
+    "1 can (tue lunch)",
+    "1 can (sun lunch)"
+  ],
+  "limes": [
+    "1 (tue lunch)",
+    "1 (sun lunch)"
+  ],
+  "avocado": [
+    "0.5 (wed breakfast)",
+    "1 (wed lunch)",
+    "0.5 (sat breakfast)"
+  ],
+  "edamame": [
+    "1 cup (wed lunch)"
+  ],
+  "carrot": [
+    "2 (wed lunch)"
+  ],
+  "kashmiri_chili": [
+    "1 tbsp (wed dinner)",
+    "1 tbsp (thu dinner)",
+    "1 tsp (fri dinner)",
+    "1 tsp (sat dinner)"
+  ],
+  "canned_tomatoes": [
+    "28 oz can (wed dinner)",
+    "28 oz can (thu dinner)",
+    "14 oz can (fri dinner)",
+    "14 oz can (sat dinner)"
+  ],
+  "heavy_cream": [
+    "1.25 cups (wed dinner)",
+    "1.25 cups (thu dinner)",
+    "1 cup (fri dinner)",
+    "1 cup (sat dinner)"
+  ],
+  "cilantro": [
+    "1 bunch (wed dinner)",
+    "1 bunch (thu dinner)"
+  ],
+  "kasoori_methi": [
+    "1 tsp (wed dinner)",
+    "1 tsp (thu dinner)"
+  ],
+  "lemon": [
+    "1 (wed dinner)",
+    "1 (thu dinner)"
+  ],
+  "turkey_deli": [
+    "6 oz (thu lunch)"
+  ],
+  "tortilla": [
+    "1 large (thu lunch)"
+  ],
+  "mustard": [
+    "1 tbsp (thu lunch)"
+  ],
+  "canned_tuna": [
+    "2 cans (fri lunch)"
+  ],
+  "mayo": [
+    "2 tbsp (fri lunch)"
+  ],
+  "celery": [
+    "2 stalks (fri lunch)"
+  ],
+  "mixed_greens": [
+    "2 cups (fri lunch)"
+  ],
+  "marinara": [
+    "1 jar (sun dinner)"
+  ],
+  "parmesan": [
+    "0.25 cup (sun dinner)"
+  ]
+}

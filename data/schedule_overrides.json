@@ -1,0 +1,14 @@
+{
+  "overrides": [
+    {
+      "date": "2026-03-12",
+      "type": "add_workout",
+      "workout_index": 1,
+      "reason": "Wed gym moved to Thu due to SF travel"
+    }
+  ],
+  "blackout_dates": [
+    "2026-03-10",
+    "2026-03-11"
+  ]
+}

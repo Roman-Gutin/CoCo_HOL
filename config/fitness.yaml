@@ -1,0 +1,340 @@
+# Roman's Fitness Program
+# 3 lifting days + prehab mornings + low-impact cardio
+#
+# METHODOLOGY: Mentzer HIT on main compound lifts
+#   - Main lifts: 2 warm-up sets + 1 ALL-OUT working set to failure
+#   - Tempo: 4 sec negative / 1 sec pause / 2 sec positive (4-1-2)
+#   - Accessories: 2 working sets, RPE 9 (1 rep shy of failure)
+#   - If you can exceed the top of the rep range, add weight next session
+#   - Log RPE honestly — if you didn't hit failure on the working set, it wasn't enough
+#
+# Periodization: 4-week linear cycle (applies to accessories only)
+#   Main lifts are always max effort — deload week means skip main lifts or do 1 set at 60%
+
+program:
+  type: 3_day_split
+  training_days: [mon, wed, fri]  # adjust based on schedule
+
+  method: mentzer_hit
+  tempo: "4-1-2"  # 4 sec eccentric, 1 sec pause, 2 sec concentric
+  tempo_note: "Control the negative. Pause at the bottom. Explode up. Every rep counts."
+
+  periodization:
+    model: linear
+    cycle_weeks: 4
+    week_1: {intensity: moderate, rpe_target: 6-7, note: "Build volume on accessories, practice tempo on mains"}
+    week_2: {intensity: moderate-high, rpe_target: 7-8, note: "Push accessories, maintain main lift weights"}
+    week_3: {intensity: high, rpe_target: 9-10, note: "All-out on mains. Try to beat last week's reps or weight."}
+    week_4: {intensity: deload, rpe_target: 5-6, note: "Mains at 60% for 1 easy set. Accessories at 50%. Recover."}
+
+  cycle:
+    # ===================== DAY 1: CHEST & TRICEPS =====================
+    - name: Chest & Triceps
+      warm_up:
+        - {name: "5 min incline walk or bike", duration_minutes: 5}
+        - {name: "Band pull-aparts", sets: 2, reps: 15, note: "Warm up shoulders/rear delts"}
+        - {name: "Push-ups", sets: 2, reps: 10}
+      exercises:
+        # --- MAIN LIFT (Mentzer HIT) ---
+        - name: Bench Press
+          method: mentzer
+          warm_up_sets:
+            - {reps: 12, percent: 50, note: "Light, feel the groove"}
+            - {reps: 6, percent: 75, note: "Moderate, don't fatigue"}
+          sets: 1
+          reps: "6-10"
+          rest_seconds: 0
+          tempo: "4-1-2"
+          intensity: "TO FAILURE. Cannot complete another rep with good form."
+          progression: "When you hit 10 reps, add 5 lbs next session and aim for 6 again"
+          notes: "This is your ONE set. Make it count. 4 sec negative on every rep. Full stop at chest. Explode up."
+        # --- SECONDARY COMPOUND (Mentzer HIT) ---
+        - name: Incline DB Press
+          method: mentzer
+          warm_up_sets:
+            - {reps: 8, percent: 60, note: "Light warm-up only"}
+          sets: 1
+          reps: "8-12"
+          rest_seconds: 0
+          tempo: "4-1-2"
+          intensity: "TO FAILURE"
+          progression: "When you hit 12 reps, add 5 lbs next session"
+        # --- ACCESSORIES (2 sets, RPE 9) ---
+        - name: Cable Flyes
+          method: accessory
+          sets: 2
+          reps: 12
+          rest_seconds: 60
+          tempo: "3-1-2"
+          progression: "Add reps to 15, then add weight"
+          notes: "Squeeze at peak contraction for 1 sec. RPE 9 — leave 1 in the tank."
+        - name: Tricep Pushdowns
+          method: accessory
+          sets: 2
+          reps: 12
+          rest_seconds: 60
+          tempo: "3-1-2"
+          progression: "Add reps to 15, then add weight"
+        - name: Overhead Tricep Extension
+          method: accessory
+          sets: 2
+          reps: 12
+          rest_seconds: 60
+          tempo: "3-1-2"
+          progression: "Add reps to 15, then add weight"
+
+    # ===================== DAY 2: BACK, SHOULDERS & BICEPS =====================
+    - name: Back, Shoulders & Biceps
+      warm_up:
+        - {name: "5 min incline walk or bike", duration_minutes: 5}
+        - {name: "Band pull-aparts", sets: 2, reps: 15}
+        - {name: "Scapular pull-ups or dead hangs", sets: 2, reps: "30 sec"}
+      exercises:
+        # --- MAIN LIFT (Mentzer HIT) ---
+        - name: Weighted Pull-ups
+          method: mentzer
+          warm_up_sets:
+            - {reps: "AMRAP", percent: 0, note: "Bodyweight, easy set"}
+            - {reps: 5, percent: 50, note: "Half your working weight"}
+          sets: 1
+          reps: "4-8"
+          rest_seconds: 0
+          tempo: "4-1-2"
+          intensity: "TO FAILURE. Full dead hang at bottom, chin over bar at top."
+          progression: "When you hit 8 reps, add 2.5 lbs next session. If <4 reps, drop weight."
+          notes: "If you can't do weighted, do bodyweight to failure. 4 sec negative is non-negotiable."
+        # --- SECONDARY COMPOUND (Mentzer HIT) ---
+        - name: Barbell Rows
+          method: mentzer
+          warm_up_sets:
+            - {reps: 8, percent: 50, note: "Light, focus on squeezing shoulder blades"}
+          sets: 1
+          reps: "6-10"
+          rest_seconds: 0
+          tempo: "4-1-2"
+          intensity: "TO FAILURE"
+          progression: "When you hit 10 reps, add 5 lbs next session"
+        # --- SHOULDER COMPOUND (Mentzer HIT) ---
+        - name: OHP
+          method: mentzer
+          warm_up_sets:
+            - {reps: 8, percent: 50}
+          sets: 1
+          reps: "6-10"
+          rest_seconds: 0
+          tempo: "4-1-2"
+          intensity: "TO FAILURE"
+          progression: "When you hit 10 reps, add 5 lbs next session"
+        # --- ACCESSORIES ---
+        - name: Face Pulls
+          method: accessory
+          sets: 2
+          reps: 15
+          rest_seconds: 60
+          tempo: "3-2-2"
+          progression: "Add reps to 20, then add weight"
+          notes: "Rear delt health. Squeeze and hold 2 sec at peak. RPE 9."
+        - name: Barbell Curls
+          method: accessory
+          sets: 2
+          reps: 12
+          rest_seconds: 60
+          tempo: "3-1-2"
+          progression: "Add reps to 15, then add weight"
+
+    # ===================== DAY 3: LEGS =====================
+    - name: Legs (Quads/Hams/Glutes)
+      warm_up:
+        - {name: "5 min incline walk or bike", duration_minutes: 5}
+        - {name: "Hip circles + leg swings", sets: 1, reps: 10}
+        - {name: "Bodyweight squats", sets: 2, reps: 10}
+        - {name: "Light belt squat (minimal weight)", sets: 1, reps: 8}
+      exercises:
+        # --- MAIN LIFT (Mentzer HIT) ---
+        - name: Belt Squats
+          method: mentzer
+          warm_up_sets:
+            - {reps: 10, percent: 50, note: "Light, feel the range of motion"}
+            - {reps: 6, percent: 75, note: "Moderate, don't grind"}
+          sets: 1
+          reps: "6-10"
+          rest_seconds: 0
+          tempo: "4-1-2"
+          intensity: "TO FAILURE. Full depth every rep. 4 sec negative. If form breaks, stop."
+          progression: "When you hit 10 reps, add 5 lbs next session"
+        # --- SECONDARY COMPOUND (Mentzer HIT) ---
+        - name: Deadlifts
+          method: mentzer
+          warm_up_sets:
+            - {reps: 8, percent: 40, note: "Bar only or very light"}
+            - {reps: 5, percent: 65, note: "Build up, don't fatigue"}
+          sets: 1
+          reps: "3-6"
+          rest_seconds: 0
+          tempo: "4-0-2"
+          intensity: "TO FAILURE. Lower rep range because it's a hinge. Controlled descent is the key."
+          progression: "When you hit 6 reps, add 10 lbs next session"
+          notes: "If pelvis/hip pain flares, substitute Romanian DL or reduce weight 10%. Warm up is NON-NEGOTIABLE."
+        # --- ACCESSORIES ---
+        - name: Glute Bridge
+          method: accessory
+          sets: 2
+          reps: 12
+          rest_seconds: 90
+          tempo: "3-2-2"
+          progression: "Add reps (up to 15) then add weight"
+          notes: "2 sec squeeze at top. Addresses pelvis pain by activating glutes."
+        - name: Calf Raises
+          method: accessory
+          sets: 2
+          reps: 15
+          rest_seconds: 60
+          tempo: "3-1-2"
+          progression: "Add 5 lbs when all sets hit 2x15"
+          notes: "Full stretch at bottom, full squeeze at top."
+        - name: Slider Lunges
+          method: accessory
+          sets: 2
+          reps: 10
+          rest_seconds: 90
+          tempo: "3-1-2"
+          progression: "Add reps (up to 12) then add weight"
+
+# ===================== PREHAB — NON-LIFTING MORNINGS =====================
+# ~15 min routine targeting known limitations
+# Do on: Tue, Thu, Sat, Sun (or any non-lifting day)
+prehab:
+  frequency: 4  # times per week, non-lifting days
+  duration_minutes: 15
+  routine:
+    # Hip / pelvis (addresses deadlift pain)
+    - name: "90/90 hip switches"
+      sets: 2
+      reps: 8
+      note: "Slow and controlled, breathe into the stretch"
+    - name: "Half-kneeling hip flexor stretch"
+      sets: 2
+      reps: "30 sec each side"
+    - name: "Glute bridge hold"
+      sets: 2
+      reps: "20 sec"
+      note: "Squeeze glutes hard, posterior pelvic tilt"
+    # Ankle (prerequisite for squats and eventual running)
+    - name: "Wall ankle dorsiflexion stretch"
+      sets: 2
+      reps: "30 sec each side"
+    - name: "Banded ankle circles"
+      sets: 1
+      reps: 10
+    # Knee stability
+    - name: "Terminal knee extensions (band)"
+      sets: 2
+      reps: 15
+      note: "Strengthens VMO, protects knee"
+    # Core (already self-adding)
+    - name: "Dead bugs"
+      sets: 2
+      reps: 10
+      note: "Core stability + pelvic control"
+
+# ===================== CARDIO =====================
+# Low-impact only — no running until ankle/knee/hip mobility confirmed
+# Roman is a beginner swimmer — technique-first approach
+# All sessions are 25 min total (including warm-up/cooldown)
+cardio:
+  frequency: 2  # times per week
+  duration_minutes: 25
+  preferred_days: [tue, thu]
+  note: "No running. Bad running form + untested ankle/knee/hip = injury risk."
+
+  # PRIMARY: Pool Swimming (beginner program)
+  # Goal: Build to 20 min continuous freestyle over 8 weeks
+  # Key cues: exhale underwater through nose, rotate from hips not shoulders,
+  #           reach long with each stroke, kick from hips (not knees)
+  swimming:
+    priority: 1
+    gear_needed: "Goggles, kickboard (gym pool should have them)"
+    weekly_schedule: "Tue = technique focus, Thu = endurance focus"
+
+    # 4-week cycle, then repeat with increased intervals
+    week_1_2:
+      label: "Learn to breathe + basic freestyle"
+      tuesday:  # technique day
+        - {block: "Warm-up", time: "3 min", do: "Walk in shallow end, submerge face, blow bubbles through nose. Get comfortable exhaling underwater."}
+        - {block: "Breathing drill", time: "5 min", do: "Hold wall, face in water, turn head to breathe every 3 sec. 10 breaths, rest 30 sec, repeat 3x. Goal: rhythmic breathing without panic."}
+        - {block: "Kickboard laps", time: "8 min", do: "Hold kickboard, face in water, kick from hips (not knees). Breathe to side every 4-6 kicks. Do 25m, rest 30 sec at wall. Repeat."}
+        - {block: "Freestyle attempt", time: "6 min", do: "Swim 25m freestyle. Don't worry about speed. Focus: exhale underwater, inhale when arm recovers. Rest 45-60 sec between laps. Do 4-6 laps."}
+        - {block: "Cooldown", time: "3 min", do: "Easy backstroke or walk in pool. Stretch shoulders."}
+      thursday:  # endurance day
+        - {block: "Warm-up", time: "3 min", do: "2 easy laps any stroke, focus on breathing rhythm"}
+        - {block: "Main set", time: "16 min", do: "Alternate: 1 lap kickboard + 1 lap freestyle. Rest 30-45 sec between each. Goal: complete 8-10 total laps (200-250m)."}
+        - {block: "Cooldown", time: "3 min", do: "Easy backstroke, stretch shoulders and lats at wall"}
+        - {block: "Total target", time: "", do: "200-250m. If you can't finish a lap, stop mid-pool, stand, breathe, continue."}
+
+    week_3_4:
+      label: "Build continuous freestyle"
+      tuesday:
+        - {block: "Warm-up", time: "3 min", do: "2 laps easy freestyle, focus on long strokes"}
+        - {block: "Catch-up drill", time: "6 min", do: "Freestyle but don't start next stroke until recovering hand touches extended hand. Forces long reach + rotation. 4 laps, rest 30 sec between."}
+        - {block: "Freestyle intervals", time: "12 min", do: "Swim 50m (2 laps), rest 45 sec. Repeat 4-5x. Focus: consistent breathing every 3 strokes on same side."}
+        - {block: "Cooldown", time: "4 min", do: "Easy backstroke, wall stretches"}
+      thursday:
+        - {block: "Warm-up", time: "3 min", do: "2 laps easy freestyle"}
+        - {block: "Main set", time: "18 min", do: "Swim 100m (4 laps), rest 60 sec. Repeat 3x. Then 2x50m with 30 sec rest. Goal: 400m total."}
+        - {block: "Cooldown", time: "4 min", do: "Easy backstroke or treading water"}
+        - {block: "Total target", time: "", do: "400m. Pace yourself — slow and steady beats fast and gasping."}
+
+    progression_rules:
+      - "If you can't complete a lap without stopping, shorten the pool distance or use kickboard more"
+      - "Breathing is the #1 skill. If you're gasping, you're not exhaling underwater — slow down"
+      - "Never skip the kickboard work. It builds your kick and lets you practice breathing in isolation"
+      - "When 400m feels comfortable (RPE 6), start week 3-4 cycle again but add 1 interval to each set"
+      - "Goal by week 8: 600m continuous freestyle at conversational pace"
+
+  # FALLBACK 1: Stationary Bike
+  bike:
+    priority: 2
+    note: "Use when pool is unavailable or you're short on time"
+    week_1_2:
+      label: "Base building"
+      protocol:
+        - {block: "Warm-up", time: "3 min", do: "Easy spin, RPE 3, low resistance"}
+        - {block: "Build", time: "5 min", do: "Moderate effort, RPE 5-6, increase resistance 1-2 notches every 90 sec"}
+        - {block: "Intervals", time: "12 min", do: "40 sec hard (RPE 7-8, high resistance) / 80 sec easy (RPE 4). Repeat 6x."}
+        - {block: "Cooldown", time: "5 min", do: "Easy spin, RPE 3, let heart rate come down"}
+    week_3_4:
+      label: "Extend intervals"
+      protocol:
+        - {block: "Warm-up", time: "3 min", do: "Easy spin, RPE 3"}
+        - {block: "Build", time: "4 min", do: "RPE 5-6, steady cadence 75-85 rpm"}
+        - {block: "Intervals", time: "14 min", do: "60 sec hard (RPE 7-8) / 60 sec easy (RPE 4). Repeat 7x."}
+        - {block: "Cooldown", time: "4 min", do: "Easy spin, stretch quads and hip flexors on bike"}
+    progression_rules:
+      - "Increase resistance before increasing speed — protect your knees"
+      - "Cadence 70-90 rpm. Below 60 = too much knee stress. Above 100 = bouncing, wasted energy"
+      - "When week 3-4 feels like RPE 6, add 2 more intervals to the main set"
+
+  # FALLBACK 2: Incline Treadmill Walk
+  incline_walk:
+    priority: 3
+    note: "Lowest barrier to entry. Great for active recovery days too."
+    week_1_2:
+      label: "Build incline tolerance"
+      protocol:
+        - {block: "Warm-up", time: "3 min", do: "0% incline, 3.0 mph, get loose"}
+        - {block: "Climb", time: "18 min", do: "Ramp incline every 3 min: 4% → 6% → 8% → 10% → 10% → 8%. Speed 3.0-3.2 mph. No holding handrails."}
+        - {block: "Cooldown", time: "4 min", do: "0% incline, 2.5 mph, shake out legs"}
+      cues:
+        - "Do NOT hold the handrails — it defeats the purpose and teaches bad posture"
+        - "Drive through your heels, squeeze glutes at top of each step"
+        - "Keep torso upright, don't lean forward into the incline"
+    week_3_4:
+      label: "Sustained incline"
+      protocol:
+        - {block: "Warm-up", time: "3 min", do: "0% incline, 3.0 mph"}
+        - {block: "Climb", time: "18 min", do: "Set 10-12% incline, 3.0-3.5 mph. Hold it. This should feel like RPE 6-7 sustained."}
+        - {block: "Cooldown", time: "4 min", do: "Drop to 0%, 2.5 mph"}
+    progression_rules:
+      - "Add 0.1 mph per week when RPE stays at 6 for the full 18 min"
+      - "If RPE hits 8+, drop speed by 0.2 mph rather than dropping incline"
+      - "This is a glute + cardio builder — complements your leg day, not a replacement"
